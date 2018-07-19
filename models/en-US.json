@@ -1,9 +1,8 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "buttons trivia",
-      "intents": [
-        {
+      "invocationName": "buttons south american capitals trivia",
+      "intents": [{
           "name": "AMAZON.CancelIntent",
           "samples": []
         },
@@ -12,7 +11,7 @@
           "samples": [
             "how do I play this game",
             "how is this game played",
-            "how do I play this"            
+            "how do I play this"
           ]
         },
         {
@@ -29,12 +28,10 @@
         },
         {
           "name": "PlayerCount",
-          "slots": [
-            {
-              "name": "players",
-              "type": "AMAZON.NUMBER"
-            }
-          ],
+          "slots": [{
+            "name": "players",
+            "type": "AMAZON.NUMBER"
+          }],
           "samples": [
             "{players}",
             "{players} players",
@@ -46,15 +43,13 @@
             "there will be {players}",
             "there will be {players} players"
           ]
-        },        
+        },
         {
           "name": "AnswerQuestionIntent",
-          "slots": [
-            {
-              "name": "answers",
-              "type": "answers"
-            }
-          ],
+          "slots": [{
+            "name": "answers",
+            "type": "answers"
+          }],
           "samples": [
             "a {answers}",
             "the {answers}",
@@ -73,14 +68,12 @@
         },
         {
           "name": "AnswerOnlyIntent",
-          "slots": [
-            {
-              "name": "answers",
-              "type": "answers"
-            }
-          ],
+          "slots": [{
+            "name": "answers",
+            "type": "answers"
+          }],
           "samples": [
-            "{answers}"            
+            "{answers}"
           ]
         },
         {
@@ -88,9 +81,9 @@
           "samples": [
             "play",
             "play the game",
-            "play a game",            
+            "play a game",
             "I'm ready to play",
-            "let's play",            
+            "let's play",
             "start a game",
             "start the game",
             "let's start the game",
@@ -114,7 +107,7 @@
             "I've got no idea",
             "I have no clue",
             "I have no idea",
-            "I am clueless"            
+            "I am clueless"
           ]
         },
         {
@@ -127,9 +120,9 @@
             "start game",
             "begin new game",
             "new game",
-            "start over"                    
+            "start over"
           ]
-        },      
+        },
         {
           "name": "AMAZON.MoreIntent",
           "samples": []
@@ -184,188 +177,65 @@
           "samples": []
         }
       ],
-      "types": [
-        {
-          "values": [
-            {
-              "name": {
-                "value": "fox"
-              }
-            },
-            {
-              "name": {
-                "value": "wolf"
-              }
-            },
-            {
-              "name": {
-                "value": "cat"
-              }
-            },
-            {
-              "name": {
-                "value": "dog"
-              }
-            },
-            {
-              "name": {
-                "value": "caribou"
-              }
-            },
-            {
-              "name": {
-                "value": "polar bear"
-              }
-            },
-            {
-              "name": {
-                "value": "narwhal"
-              }
-            },
-            {
-              "name": {
-                "value": "penguin"
-              }
-            },
-            {
-              "name": {
-                "value": "orangutan"
-              }
-            },
-            {
-              "name": {
-                "value": "elephant"
-              }
-            },
-            {
-              "name": {
-                "value": "dolphin"
-              }
-            },
-            {
-              "name": {
-                "value": "blue whale"
-              }
-            },
-            {
-              "name": {
-                "value": "janet"
-              }
-            },
-            {
-              "name": {
-                "value": "jenny"
-              }
-            },
-            {
-              "name": {
-                "value": "joey"
-              }
-            },
-            {
-              "name": {
-                "value": "adder"
-              }
-            },
-            {
-              "name": {
-                "value": "copperhead"
-              }
-            },
-            {
-              "name": {
-                "value": "coral snake"
-              }
-            },
-            {
-              "name": {
-                "value": "cobra"
-              }
-            },
-            {
-              "name": {
-                "value": "mammals"
-              }
-            },
-            {
-              "name": {
-                "value": "reptiles"
-              }
-            },
-            {
-              "name": {
-                "value": "black with white stripes"
-              }
-            },
-            {
-              "name": {
-                "value": "white with black stripes"
-              }
-            },
-            {
-              "name": {
-                "value": "shell"
-              }
-            },
-            {
-              "name": {
-                "value": "fish"
-              }
-            },
-            {
-              "name": {
-                "value": "arachnid"
-              }
-            },
-            {
-              "name": {
-                "value": "crustacean"
-              }
-            },
-            {
-              "name": {
-                "value": "squirrels"
-              }
-            },
-            {
-              "name": {
-                "value": "echidnas"
-              }
-            },
-            {
-              "name": {
-                "value": "dolphins"
-              }
-            },
-            {
-              "name": {
-                "value": "spiny anteaters"
-              }
-            },
-            {
-              "name": {
-                "value": "frat"
-              }
-            },
-            {
-              "name": {
-                "value": "den"
-              }
-            },
-            {
-              "name": {
-                "value": "pride"
-              }
-            },
-            {
-              "name": {
-                "value": "pack"
-              }
+      "types": [{
+        "values": [{
+            "name": {
+              "value": "Buenos Aires"
             }
-          ],
-          "name": "answers"
-        }
-      ]
+          },
+          {
+            "name": {
+              "value": "Sucre"
+            }
+          },
+          {
+            "name": {
+              "value": "Brasília"
+            }
+          },
+          {
+            "name": {
+              "value": "Santiago"
+            }
+          },
+          {
+            "name": {
+              "value": "Quito"
+            }
+          },
+          {
+            "name": {
+              "value": "Georgetown"
+            }
+          },
+          {
+            "name": {
+              "value": "Asunción"
+            }
+          },
+          {
+            "name": {
+              "value": "Lima"
+            }
+          },
+          {
+            "name": {
+              "value": "Paramaribo"
+            }
+          },
+          {
+            "name": {
+              "value": "Montevideo"
+            }
+          },
+          {
+            "name": {
+              "value": "Caracas"
+            }
+          }
+        ],
+        "name": "answers"
+      }]
     }
   }
 }
