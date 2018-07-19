@@ -3,34 +3,38 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "A trivia game featuring Echo Buttons for competitive play.",
+          "summary": "A trivia game about South American Capitals featuring Echo Buttons for competitive play.",
           "examplePhrases": [
-            "Alexa, open button trivia",
-            "Alexa, start button trivia",
-            "Alexa, ask button trivia to start a new game"            
+            "Alexa, open south american capitals trivia",
+            "Alexa, start south american capitals trivia",
+            "Alexa, ask south american capitals trivia to start a new game"
           ],
           "keywords": [
             "buttons",
             "games",
-            "trivia"
+            "trivia",
+            "south american",
+            "capitals"
           ],
-          "name": "Button Trivia Template",
-          "description": "This is a fast-paced, trivia-style game, featuring Echo Buttons. Challenge your friends, or play by yourself."
+          "name": "Button South American Capitals Trivia",
+          "description": "This is a fast-paced, trivia-style game, featuring South American Capitals. Challenge your friends, or play by yourself."
         },
         "en-GB": {
-          "summary": "A trivia game featuring Echo Buttons for competitive play.",
+          "summary": "A trivia game featuring South American Capitals and Echo Buttons for competitive play.",
           "examplePhrases": [
-            "Alexa, open button trivia",
-            "Alexa, start button trivia",
-            "Alexa, ask button trivia to start a new game"            
+            "Alexa, open south american capitals trivia",
+            "Alexa, start south american capitals trivia",
+            "Alexa, ask south american capitals trivia to start a new game"
           ],
           "keywords": [
             "buttons",
             "games",
-            "trivia"
+            "trivia",
+            "south american",
+            "capitals"
           ],
-          "name": "Button Trivia Template",
-          "description": "This is a fast-paced, trivia-style game, featuring Echo Buttons. Challenge your friends, or play by yourself."
+          "name": "Button South American Capitals Trivia",
+          "description": "This is a fast-paced, trivia-style game, featuring South American Capitals. Challenge your friends, or play by yourself."
         }
       },
       "isAvailableWorldwide": false,
@@ -50,8 +54,7 @@
         "endpoint": {
           "sourceDir": "lambda/custom"
         },
-        "interfaces": [
-          {
+        "interfaces": [{
             "type": "RENDER_TEMPLATE"
           },
           {
@@ -62,10 +65,10 @@
           }
         ],
         "regions": {
-          "NA": {    
+          "NA": {
             "endpoint": {
               "sourceDir": "lambda/custom"
-            }      
+            }
           },
           "EU": {
             "endpoint": {

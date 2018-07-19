@@ -60,25 +60,25 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "70e906b54d6be037a4e7b102e7cf7b68"
+          "eTag": "7de1e7adfdc2629c6a16fa1867a66ac7"
         },
         "interactionModel": {
           "en-GB": {
-            "eTag": "2265d667dea85b18095976fdaf0921aa"
+            "eTag": "e1661d852bf757122139003a2fd9ef43"
           },
           "en-US": {
-            "eTag": "2265d667dea85b18095976fdaf0921aa"
+            "eTag": "e1661d852bf757122139003a2fd9ef43"
           }
         },
         "lambda": [
           {
             "arn": "arn:aws:lambda:eu-west-1:931665716846:function:ask-custom-echo-button-trivia-skill",
-            "functionName": "ask-custom-echo-button-trivia-skill",
+            "functionName": "arn:aws:lambda:eu-west-1:931665716846:function:ask-custom-echo-button-trivia-skill",
             "awsRegion": "eu-west-1",
             "alexaUsage": [
               "custom/EU"
             ],
-            "revisionId": "8e79d7e8-81fd-46f3-b7a5-5af9ada8dc99"
+            "revisionId": "8c945102-1f6a-4164-89fd-7c2846541b9c"
           },
           {
             "arn": "arn:aws:lambda:us-east-1:931665716846:function:ask-custom-echo-button-trivia-skill",
@@ -87,7 +87,7 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "bbf264be-7e57-4343-904e-2ffdce5f04e5"
+            "revisionId": "7dd06bf2-7d55-4dbc-9c0a-170455614c52"
           }
         ]
       }
