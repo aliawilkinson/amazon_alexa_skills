@@ -45,70 +45,82 @@
  * 
  * See model file at models/en-US.json for a complete example.
  */
-module.exports = Object.freeze({ 
+module.exports = Object.freeze({
     questions: {
-      'en': {
-        'us': [
-            {
-                index: 1,
-                question: 'What is the name for a group of lions?',
-                answers: ['pack', 'pride', 'den', 'frat'],
-                correct_answer: 'pride'
-            },
-            {
-                index: 2,
-                question: 'Which of these mammals lay eggs: spiny anteaters, dolphins, echidnas, or squirrels?',
-                answers: ['spiny anteaters', 'dolphins', 'echidnas', 'squirrels'],
-                correct_answer: 'echidnas'
-            },
-            {
-                index: 3,
-                question: 'What type of animal is a seahorse?',
-                answers: ['crustacean', 'arachnid', 'fish', 'shell'],
-                correct_answer: 'fish'
-            },
-            {
-                index: 4,
-                question: 'What color are zebras?',
-                answers: ['white with black stripes', 'black with white stripes'],
-                correct_answer: 'black with white stripes'
-            },
-            {
-                index: 5,
-                question: 'Which type of animals have more teeth, reptiles or mammals?',
-                answers: ['reptiles', 'mammals'],
-                correct_answer: 'mammals'
-            },
-            {
-                index: 6,
-                question: 'What is the only venomous snake found in Britain?',
-                answers: ['cobra', 'coral snake', 'copperhead', 'adder'],
-                correct_answer: 'adder'
-            },
-            {
-                index: 7,
-                question: 'What is a female donkey called?',
-                answers: ['joey', 'jenny', 'janet'],
-                correct_answer: 'jenny'
-            },
-            {
-                index: 8,
-                question: 'What land mammal other than man has the longest lifespan?',
-                answers: ['blue whale', 'dolphin', 'elephant', 'orangutan'],
-                correct_answer: 'elephant'
-            },
-            {
-                index: 9,
-                question: 'Eskimos call what kind of creature a nanook?',
-                answers: ['penguin', 'narwhal', 'polar bear', 'caribou'],
-                correct_answer: 'polar bear'
-            },
-            {
-                index: 10,
-                question: 'Lupus is the Latin name for what animal?',
-                answers: ['dog', 'cat', 'wolf', 'fox'],
-                correct_answer: 'wolf'
-            }
+        'en': {
+            'us': [
+                {
+                    index: 1,
+                    question: 'What is the capital of Argentina?',
+                    answers: ['Sucre', 'Asunción', 'Montevideo', 'Buenos Aires'],
+                    correct_answer: 'Buenos Aires'
+                },
+                {
+                    index: 2,
+                    question: 'What is the capital of Bolivia?',
+                    answers: ['Santiago', 'Asunción', 'Montevideo', 'Sucre'],
+                    correct_answer: 'Sucre'
+                },
+                {
+                    index: 3,
+                    question: 'What is the capital of Chile?',
+                    answers: ['Sucre', 'Bogotá', 'Buenos Aires', 'Santiago'],
+                    correct_answer: 'Santiago'
+                },
+                {
+                    index: 4,
+                    question: 'What is the capital of Brasil?',
+                    answers: ['Sucre', 'Santiago', 'Buenos Aires', 'Brasília'],
+                    correct_answer: 'Brasília'
+                },
+                {
+                    index: 5,
+                    question: 'What is the capital of Colombia?',
+                    answers: ['Sucre', 'Santiago', 'Montevideo', 'Bogotá'],
+                    correct_answer: 'Bogotá'
+                },
+                {
+                    index: 6,
+                    question: 'What is the capital of Ecuador?',
+                    answers: ['Sucre', 'Santiago', 'Montevideo', 'Quito'],
+                    correct_answer: 'Quito'
+                },
+                {
+                    index: 7,
+                    question: 'What is the capital of Guyana?',
+                    answers: ['Brasília', 'Quito', 'Paramaribo', 'Georgetown'],
+                    correct_answer: 'Georgetown'
+                },
+                {
+                    index: 8,
+                    question: 'What is the capital of Paraguay?',
+                    answers: ['Brasília', 'Quito', 'Paramaribo', 'Asunción'],
+                    correct_answer: 'Asunción'
+                },
+                {
+                    index: 9,
+                    question: 'What is the capital of Peru?',
+                    answers: ['Caracas', 'Asunción', 'Paramaribo', 'Lima'],
+                    correct_answer: 'Lima'
+                },
+                {
+                    index: 10,
+                    question: 'What is the capital of Suriname?',
+                    answers: ['Caracas', 'Bogotá', 'Lima', 'Paramaribo'],
+                    correct_answer: 'Paramaribo'
+                },
+                {
+                    index: 11,
+                    question: 'What is the capital of Uruguay?',
+                    answers: ['Caracas', 'Bogotá', 'Paramaribo', 'Montevideo'],
+                    correct_answer: 'Montevideo'
+                },
+                {
+                    index: 12,
+                    question: 'What is the capital of Venezuela?',
+                    answers: ['Sucre', 'Bogotá', 'Paramaribo', 'Caracas'],
+                    correct_answer: 'Caracas'
+                },
             ]
         }
     }

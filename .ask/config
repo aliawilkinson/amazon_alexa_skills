@@ -1,52 +1,55 @@
 {
   "deploy_settings": {
-        
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.e3d46e62-ec43-4793-bbdf-aa0d6db986a1",
       "was_cloned": false,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
-              "endpoint": {                    
+              "endpoint": {
                 "uri": "ask-custom-echo-button-trivia-skill"
-              }, 
+              },
               "regions": {
                 "NA": {
-                  "endpoint": {                    
+                  "endpoint": {
                     "uri": "ask-custom-echo-button-trivia-skill"
                   }
                 },
                 "EU": {
-                  "endpoint": {                    
+                  "endpoint": {
                     "uri": "ask-custom-echo-button-trivia-skill"
                   }
                 }
               }
             }
           }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "52ef53965cf52ee968afc8363ef0468c"
         }
       }
     },
-
     "trivia-skill": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.067f4ed6-7c60-4c73-8b36-5cfe72eabada",
       "was_cloned": false,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
-              "endpoint": {                    
+              "endpoint": {
                 "uri": "ask-custom-echo-button-trivia-skill"
-              },           
+              },
               "regions": {
                 "NA": {
-                  "endpoint": {                    
+                  "endpoint": {
                     "uri": "ask-custom-echo-button-trivia-skill"
                   }
                 },
                 "EU": {
-                  "endpoint": {                    
+                  "endpoint": {
                     "uri": "ask-custom-echo-button-trivia-skill"
                   }
                 }
@@ -54,8 +57,40 @@
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "70e906b54d6be037a4e7b102e7cf7b68"
+        },
+        "interactionModel": {
+          "en-GB": {
+            "eTag": "2265d667dea85b18095976fdaf0921aa"
+          },
+          "en-US": {
+            "eTag": "2265d667dea85b18095976fdaf0921aa"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:eu-west-1:931665716846:function:ask-custom-echo-button-trivia-skill",
+            "functionName": "ask-custom-echo-button-trivia-skill",
+            "awsRegion": "eu-west-1",
+            "alexaUsage": [
+              "custom/EU"
+            ],
+            "revisionId": "8e79d7e8-81fd-46f3-b7a5-5af9ada8dc99"
+          },
+          {
+            "arn": "arn:aws:lambda:us-east-1:931665716846:function:ask-custom-echo-button-trivia-skill",
+            "functionName": "arn:aws:lambda:us-east-1:931665716846:function:ask-custom-echo-button-trivia-skill",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "bbf264be-7e57-4343-904e-2ffdce5f04e5"
+          }
+        ]
       }
     }
   }
-
 }
