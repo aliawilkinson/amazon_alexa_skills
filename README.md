@@ -2,7 +2,7 @@
 Alia Wilkinson
 
 # Summary
-This is an Alexa skill that utilizes Alex buttons and Amazon's template for trivia games, outlined below. 
+This is an Alexa skill that utilizes Alexa buttons and Amazon's template for trivia games, outlined below. 
 
 Feature List
 * Questions about South American capital cities in a trivia style format, to be played with Alexa and Alexa buttons. 
