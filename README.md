@@ -1,3 +1,17 @@
+# Developer
+Alia Wilkinson
+
+# Summary
+This is an Alexa skill that utilizes Alex buttons and Amazon's template for trivia games, outlined below. 
+
+Feature List
+* Questions about South American capital cities in a trivia style format, to be played with Alexa and Alexa buttons. 
+
+Technologies
+* Alexa skill API
+* Amazon Lambda
+* Linux command line
+
 ![](https://images-na.ssl-images-amazon.com/images/G/01/kindle/dp/2017/4911315144/LP_AG_HERO_BANNER_1334x389.jpg)
 
 
